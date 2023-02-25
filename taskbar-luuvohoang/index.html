@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TaskBar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/de64e2e888.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="main-logo" src="pic/logo.jpg" alt="">
+            <p class="main-content">DUT Job Fair 2023</p>
+        </div>
+        <div class="right-section">
+            <div class="fullscreen">
+                <li>
+                    <a href="#"> THÔNG TIN CHUNG</a>
+                </li>
+                <div class="dropdown">
+                    <div class="dropdown-box">
+                        <li>
+                           <a href="#"> HOẠT ĐỘNG</a>
+                        </li>
+                        <i class="fa-solid fa-angle-down" style="padding-top: 0px;margin-left: 5px;"></i>
+                    </div>
+                    <ul class="dropdown-hover">
+                        <li>
+                            <a href="#"> SHOP/SEMINAR</a>
+                        </li>   
+                        <li>
+                            <a href="#">NGÀY HỘI </a>
+                        </li>   
+                        <li>
+                            <a href="#"> TUYỂN DỤNG</a>
+                        </li>   
+                        <li>
+                            <a href="#">LỊCH TRÌNH/SƠ ĐỒ</a>
+                        </li>   
+                    </ul>
+                </div>
+                <li>
+                    <a href="#">ĐỐI TÁC</a>
+                </li>
+                <li>
+                     <a href="#">ĐỘI NGŨ</a>
+                </li>
+                <div class="dropdown">
+                    <div class="dropdown-box">
+                        <li>
+                            <a href="#">ĐĂNG KÝ</a>
+                        </li>
+                        <i class="fa-solid fa-angle-down" style="padding-top: 0px;margin-left: 5px;"></i>
+                    </div>
+                    <ul class="dropdown-hover">
+                        <li>
+                           <a href="#"> THAM GIA NGÀY HỘI</a>
+                        </li>   
+                        <li>
+                            <a href="#">TÌNH NGUYỆN VIÊN </a>
+                        </li>   
+                        <li>
+                            <a href="#">TÀI TRỢ</a>
+                        </li>     
+                    </ul>
+                </div>
+                <i class="fa-solid fa-magnifying-glass" style="margin-left: 20px;"></i>
+            </div>   
+            <div class="not-fullscreen">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <div class="menu">
+                    <div>
+                        <li>
+                            <a href="#"> THÔNG TIN CHUNG</a>
+                        </li>
+                    </div>
+                    <div class="dropdown2">
+                        <div class="dropdown2-box">
+                            <li>
+                               <a href="#"> HOẠT ĐỘNG</a>
+                            </li>
+                            <i class="fa-solid fa-angle-down" style="padding-top: 21px;margin-left: 5px;"></i>
+                        </div>
+                        <ul class="dropdown2-hover">
+                            <li>
+                                <a href="#"> SHOP/SEMINAR</a>
+                            </li>   
+                            <li>
+                                <a href="#">NGÀY HỘI </a>
+                            </li>   
+                            <li>
+                                <a href="#"> TUYỂN DỤNG</a>
+                            </li>   
+                            <li>
+                                <a href="#">LỊCH TRÌNH/SƠ ĐỒ</a>
+                            </li>   
+                        </ul>
+                    </div>
+                    <li>
+                        <a href="#">ĐỐI TÁC</a>
+                    </li>
+                    <li>
+                         <a href="#">ĐỘI NGŨ</a>
+                    </li>
+                    <div class="dropdown2">
+                        <div class="dropdown2-box">
+                            <li>
+                                <a href="#">ĐĂNG KÝ</a>
+                            </li>
+                            <i class="fa-solid fa-angle-down" style="padding-top: 21px;margin-left: 5px;"></i>
+                        </div>
+                        <ul class="dropdown2-hover">
+                            <li>
+                                <a href="#"> THAM GIA NGÀY HỘI</a>
+                             </li>   
+                             <li>
+                                 <a href="#">TÌNH NGUYỆN VIÊN </a>
+                             </li>   
+                             <li>
+                                 <a href="#">TÀI TRỢ</a>
+                             </li>       
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img class="background-image" src="pic/briefBg.png" alt="">
+    </div>
+    <script src="js.js">
+        // const hamburger = document.querySelector(".hamburger");
+        // const menu = document.querySelector(".menu");
+
+        // hamburger.addEventListener("click", () => {
+        //     hamburger.classList.toggle("active");
+        //     menu.classList.toggle("active");
+        // })
+
+        // document.querySelectorAll("link").forEach(n => n.addEventListener("click", () =>{
+        //     hamburger.classList.remove("active");
+        //     menu.classList.remove("active");
+        // }))
+    </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
